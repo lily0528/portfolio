@@ -1,0 +1,148 @@
+body,html{
+    padding: 0px;
+    margin:0px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    }
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 10px;
+    text-align: right;
+    margin:10px 10px 0px 0px;
+}
+.line{
+    width:100%;
+    height: 6px;
+}
+img{
+    width:100%;
+    }
+.container-header{
+    width:100%;
+    overflow: hidden;
+}
+h1{
+    margin: 0px;
+    }
+.container-items1-h4{
+   text-align: center;
+    }
+.container-items1-link{
+    font-size: 15px;
+}
+h2{
+    text-align: center;
+    color:rgb(48, 6, 114);
+    font-size: 20px;
+    margin:0px;
+}
+h4{
+    text-align: center;
+    color:rgb(48, 6, 114);
+    font-size:15px;
+    margin: 0px;
+}
+.container-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;  
+    padding: 0px;
+    margin: 0px; 
+}
+.container-items1{
+    width: 230px;
+    height: 140px;
+    margin-bottom: 70px;
+}
+.rocking img{
+    border-radius: 8px;
+}
+.running img{
+    border-radius: 8px;
+}
+.surfing img{
+    border-radius: 8px;
+}
+@media screen and (min-width:500px){
+    .information{
+        flex-direction: column;
+        text-align: right;
+        margin: 20px 10px 0px auto;
+        margin-right: 10px;
+    }
+    .container-items {
+        flex-direction: column;
+        font-size: 30px;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    h2{
+        text-align: center;
+        font-size: 20px;
+        margin:10px;
+    }
+    h4{
+        text-align: center;
+        font-size:15px;
+        margin: 0px;
+    }
+}
+@media screen and (min-width:800px){
+    .information{
+        flex-direction: column;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .container-items {
+        flex-direction: row;
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-items1{
+        width: 250px;
+        height: 160px;
+        margin-bottom: 20px;
+    }
+    h2{
+        text-align: left;
+        font-size: 30px;
+        margin:10px;
+    }
+    h4{
+        text-align: center;
+        font-size:20px;
+        margin: 0px;
+    }
+}
+@media screen and (min-width:1200px){
+    .container-items1{
+        width: 380px;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+    .container-items{
+        justify-content: space-between;
+    }
+}
