@@ -22,6 +22,7 @@ self.addEventListener('install',(event) =>{
             'images/rocking.jpg',
             'images/running.jpg',
             'images/surfing.jpg',
+             'sw.js',
             'css/styles.css',
               'js/app.js',
             'index.html']
