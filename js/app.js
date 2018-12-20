@@ -1,5 +1,5 @@
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register('https://lily0528.github.io/sw.js')
+    navigator.serviceWorker.register('portfolio/sw.js')
     .then(() => {
         console.log("Serve Worker Installed")
     })
