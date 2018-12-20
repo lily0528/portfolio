@@ -1,5 +1,5 @@
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register('portfolio/sw.js')
+    navigator.serviceWorker.register('/sw.js')
     .then(() => {
         console.log("Serve Worker Installed")
     })
