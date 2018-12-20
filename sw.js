@@ -1,4 +1,4 @@
-const staticCache = 'my-cache-1';
+const staticCache = 'my-cache-2';
 self.addEventListener('activate', event =>{
     event.waitUntil(
         caches.keys().then(function(cacheNames){
