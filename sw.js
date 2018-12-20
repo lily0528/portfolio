@@ -16,16 +16,15 @@ self.addEventListener('install',(event) =>{
     event.waitUntil(
         caches.open(staticCache).then(function(cache){
         return cache.addAll(
-            ['/images/line.jpg',
-            '/images/logo.jpg',
-            '/images/main2.jpg',
-            '/images/rocking.jpg',
-            '/images/running.jpg',
-            '/images/surfing.jpg',
-            '/css/styles.css',
-              '/js/app.js',
-            '/',
-            '/index.html']
+            ['images/line.jpg',
+            'images/logo.jpg',
+            'images/main2.jpg',
+            'images/rocking.jpg',
+            'images/running.jpg',
+            'images/surfing.jpg',
+            'css/styles.css',
+              'js/app.js',
+            'index.html']
         );
         })
     );
