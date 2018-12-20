@@ -3,7 +3,7 @@ self.addEventListener('activate', event =>{
     event.waitUntil(
         caches.keys().then(function(cacheNames){
             return Promise.all(
-            cacheNames.filter(function(cacheNames){
+            cacheNames.filter(function(cacheName){
                 return cacheName.startsWith('my-')&& cacheName !== staticCache
             }).map(function(cacheName){
                 return caches.delete(cacheName);
