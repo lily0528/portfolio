@@ -83,6 +83,10 @@ h4{
 .lookahead img{
     border-radius: 8px;
 }
+.pig-game {
+    border-radius: 8px gray;
+    border: 1px gray;
+}
 
 hr{
     border: 1px solid gray
