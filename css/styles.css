@@ -74,15 +74,20 @@ h4{
     height: 140px;
     margin-bottom: 70px;
 }
-.rocking img{
+.Matching-Game  img{
     border-radius: 8px;
 }
-.running img{
+.restaurant img{
     border-radius: 8px;
 }
-.surfing img{
+.lookahead img{
     border-radius: 8px;
 }
+
+hr{
+    border: 1px solid gray
+}
+
 @media screen and (min-width:500px){
     .information{
         flex-direction: column;
